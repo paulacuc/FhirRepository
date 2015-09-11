@@ -60,8 +60,8 @@
                     </concept>
                     <concept>
                         <code value="9"/>
-                        <display value="Andre tjenester"/>
-                        <definition value="Rehabiliteringsinstitusjoner, politi, fengsel, rettsvesen"/>
+                        <display value="It works!"/>
+                        <definition value="It works!"/>
                     </concept>
                 </define>
             </ValueSet>            
