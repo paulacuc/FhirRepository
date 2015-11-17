@@ -10955,7 +10955,7 @@
           <target>
             <codeSystem value="http://snomed.info/sct"/>
             <equivalence value="unmatched"/>
-            <comments value="assume swab from shunt site for mapping here - clean surface of skin prior to expressing the shunt site - preferred is aspiration with sterile syringe should use SPM.8 to specify body approximate match location of shunt site"/>
+            <comments value="assume swab from shunt site mapping here - clean surface of skin prior to expressing the shunt site - preferred is aspiration with sterile syringe should use SPM.8 to specify body approximate match location of shunt site"/>
             <product>
               <element value="http://hl7.org/fhir/v2/element/SPM-5"/>
               <codeSystem value="http://snomed.info/sct"/>
