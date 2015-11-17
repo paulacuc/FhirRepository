@@ -10961,11 +10961,6 @@
               <codeSystem value="http://snomed.info/sct"/>
               <code value="438660002"/>
             </product>
-            <product>
-              <element value="http://hl7.org/fhir/v2/element/SPM-7"/>
-              <codeSystem value="http://snomed.info/sct"/>
-              <code value="257351008"/>
-            </product>
           </target>
         </element>
       </ConceptMap>
