@@ -12,7 +12,7 @@
   <kind value="resource" />
   <constrainedType value="AllergyIntolerance" />
   <abstract value="false" />
-  <base value="http://hl7.org/fhir/StructureDefinition/AllergyIntolerance" />
+  <base value="http://hl7.org/fhir/StructureDefinition/AllergyIntolerance />
   <differential>
     <element>
       <path value="AllergyIntolerance" />
