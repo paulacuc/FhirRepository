@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "url": "http://hl7.no/fhir/ValueSet/tidspunkt-pa-dagen",
-  "name": "Tidspunkt på dagen",
+  "name": "Tidspunkt pa dagen",
   "status": "draft",
   "compose": {
     "include": [
@@ -18,7 +18,7 @@
           },
           {
             "code": "3",
-            "display": "Midt på dagen"
+            "display": "Midt pa dagen"
           },
           {
             "code": "4",
@@ -36,7 +36,7 @@
       }
     ]
   },
-  "description": "Omtrentlige angivelser av tidspunkt på dagen. Kan være aktuell for bruk i alle elektroniske meldinger.",
+  "description": "Omtrentlige angivelser av tidspunkt pa dagen. Kan være aktuell for bruk i alle elektroniske meldinger.",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Tidspunkt på dagen</h2><tt>http://hl7.no/fhir/ValueSet/tidspunkt-pa-dagen</tt><p>Omtrentlige angivelser av tidspunkt på dagen. Kan være aktuell for bruk i alle elektroniske meldinger.</p></div>"
