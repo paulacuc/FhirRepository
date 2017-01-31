@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="calculation-basis" />
+  <meta>
+    <lastUpdated value="2017-01-23T15:32:51.272+01:00" />
+  </meta>
+  <text>
+    <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
+  <p>An extension that specifies what forms the basis for calculating the dose (weight, age, body surface, other).</p>
+</div></text>
+  <url value="http://hl7.no/fhir/StructureDefinition/calculation-basis" />
+  <name value="Dose calculation basis" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="HL7 Norge" />
+  <date value="2017-01-19T15:16:21.5215933+01:00" />
+  <description value="Specifies what forms the basis for calculating the dose (weight, age, body surface, other)." />
+  <requirements value="A need to represent the element doseCalculationBasis (DoseresEtter in Norwegian, type CS): to specify what forms the basis for calculating the dose (weight, age, body surface, other), using the coding system OID 9080 (basis for calculating the dose) from www.volven.vo." />
+  <kind value="datatype" />
+  <constrainedType value="Extension" />
+  <abstract value="false" />
+  <contextType value="resource" />
+  <context value="MedicationStatement.dosage" />
+  <base value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <differential>
+    <element>
+      <path value="Extension" />
+    </element>
+    <element>
+      <path value="Extension.url" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/calculation-basis" />
+    </element>
+    <element>
+      <path value="Extension.valueCode" />
+      <short value="Dose calculation basis" />
+      <type>
+        <code value="code" />
+      </type>
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSetReference>
+          <reference value="https://www.simplifier.net/api/fhir/ValueSet/ce6a4e98-74df-4612-ace7-db6072e3c59b" />
+        </valueSetReference>
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>
